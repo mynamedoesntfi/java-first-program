@@ -25,7 +25,7 @@ public class Finance {
         return false;
     }
 
-    private static void executeCommand(String command, String[] arguments)    {
+    private static void executeCommand(String command, String[] arguments) throws IllegalArgumentException {
         switch (command)
         {
             case BEST_LOAN_RATES:
